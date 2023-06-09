@@ -16,7 +16,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from git_test import views as git_views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', git_views.home)
 ]
