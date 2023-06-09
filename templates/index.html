@@ -1,13 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<<<<<<< Updated upstream
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tag-it/2.0/js/tag-it.min.js" integrity="sha512-/+S+ux3SPgnYy6QTupGfK3nvRnXTYDRHtXMiaGsZaBHBa7sMWWHXdktMhfRlcx1ELUCLINAyWqiaC6a7EaIRtA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
+=======
+>>>>>>> Stashed changes
 <head>
     <meta charset="UTF-8">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
     <title>Title</title>
+
 </head>
+
+
+
 <body>
+<<<<<<< Updated upstream
 <h1>TEST!</h1>
+=======
+    <h1>TEST!</h1>
+
+    <div class="modal modal-sheet position-static d-block bg-body-secondary p-4 py-md-5" tabindex="-1" role="dialog"
+        id="modalSheet">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content rounded-4 shadow">
+                <div class="modal-header border-bottom-0">
+                    <h1 class="modal-title fs-5">Apply Cowbell</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body py-0">
+                    <p>This important feature allows the user to apply cowbell to their ears.</p>
+                </div>
+                <div class="modal-footer flex-column align-items-stretch w-100 gap-2 pb-3 border-top-0">
+                    <button type="button" class="btn btn-lg btn-primary">!!! COWBELL !!!</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script>
+    var audio = new Audio('./audio/cowbell.mp3');
+    var playButton = document.querySelector('.btn');
+
+    playButton.addEventListener('click', function() {
+      audio.play();
+    });
+</script>
+
+>>>>>>> Stashed changes
 </body>
+
 </html>
